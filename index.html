@@ -3,31 +3,38 @@
 <head>
 <style>
   body {
-    /* Removed 250px margins and light blue background */
+    /* Apply light blue background */
+    background-color: #e0f2fe; 
     margin: 0;
-    padding: 20px;
-    background-color: #ffffff; 
+    padding: 0;
     font-family: sans-serif;
+  }
+
+  .content-wrapper {
+    /* This is to format the content, with 250px side margins */
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 40px;
   }
 
   .header-text {
     font-size: 24px;
     font-weight: bold;
-    /* Removed the white line (border-bottom) */
+    /* Ensured no white line/border exists here */
     border-bottom: none; 
-    padding-bottom: 0;
+    margin-bottom: 20px;
   }
-
-  /* Image container class removed entirely */
 </style>
 </head>
 <body>
 
+<div class="content-wrapper">
   <div class="header-text">
     P3471 Instructor Space | Chamil Rathnayake
   </div>
 
-  <p>Your content starts here...</p>
+  <p>Your main content lives here, neatly tucked between 250px margins.</p>
+</div>
 
 </body>
 </html>
